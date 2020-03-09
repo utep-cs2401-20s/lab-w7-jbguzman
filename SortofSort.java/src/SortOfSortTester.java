@@ -22,16 +22,18 @@ class SortOfSortTester {
         a = {-3, 1, -6, 10};
         assetEquals({-3, -6, 1, 10});
     }
+
     @Test
     public void testSortOfSort4(){
         int [] a = new int [];
-        a = {2, 9, 5, 1};
-        assetEquals({2, 1, 5, 9});
+        a = {8, 9, 5, -1};
+        assetEquals({5, -1, 8, 9});
     }
+
     @Test
     public void testSortOfSort5(){
         int [] a = new int [];
-        a = {2, 9, 5, 1};
-        assetEquals({2, 1, 5, 9});
+        a = {1, 0, -4, 8, 17};
+        assetEquals({1, 0, -4, 8, 17});
     }
 }
